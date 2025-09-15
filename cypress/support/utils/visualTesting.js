@@ -7,7 +7,6 @@ export class VisualTesting {
     };
     
     cy.screenshot(name);
-    // Aqui você integraria com percy.io, applitools ou cypress-image-diff
     return cy.task('compareScreenshot', { name, options: defaultOptions });
   }
 
