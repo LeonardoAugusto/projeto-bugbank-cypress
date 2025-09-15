@@ -1,0 +1,38 @@
+{
+  "validUsers": [
+    {
+      "email": "usuario.valido01@teste.com",
+      "name": "Usuario Valido 01",
+      "password": "Senha123!",
+      "role": "user"
+    },
+    {
+      "email": "usuario.valido02@teste.com",
+      "name": "Usuario Valido 02",
+      "password": "Senha456!",
+      "role": "user"
+    }
+  ],
+  "invalidUsers": [
+    {
+      "email": "email-invalido",
+      "name": "Usuario Teste",
+      "password": "123",
+      "expectedError": "Email inválido"
+    }
+  ],
+  "transferData": {
+    "valid": {
+      "accountNumber": "12345",
+      "digit": "6",
+      "value": 100,
+      "description": "Transferência válida"
+    },
+    "invalid": {
+      "accountNumber": "99999",
+      "digit": "9",
+      "value": 10000,
+      "description": "Transferência inválida"
+    }
+  }
+}

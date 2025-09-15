@@ -1,0 +1,12 @@
+# Dependências do Node
+node_modules/
+
+# Logs e arquivos de debug do Cypress
+cypress/logs/
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+
+# Arquivos de configuração local
+cypress.env.json
+.env # Arquivo de variáveis de ambiente
